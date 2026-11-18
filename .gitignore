@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.local
+__pycache__/
+*.pyc
+.venv/
+# model weights are large; deploy them via Hugging Face, not this repo
+backend/model/*.keras
+backend/model/*.h5
+backend/model/*.tflite
