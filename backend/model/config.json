@@ -1,0 +1,16 @@
+{
+  "img_size": 224,
+  "classes": [
+    "No DR",
+    "Mild",
+    "Moderate",
+    "Severe",
+    "Proliferative DR"
+  ],
+  "threshold": 0.6,
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "test_accuracy": 0.76,
+  "test_qwk": 0.8778125633460213,
+  "sample_mode": false
+}
